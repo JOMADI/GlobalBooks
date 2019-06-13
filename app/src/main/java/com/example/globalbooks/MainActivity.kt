@@ -15,8 +15,6 @@ import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 
 class MainActivity : AppCompatActivity() {
-    private val ADMOB_APP_ID: String = "ca-app-pub-4651258945687148~1643020169"//USE THIS INSTEAD BEFORE PUBLISHING APP
-                                                                                //TEST ID WAS USED
     private val TEST_ADMOB_APP_ID: String = "ca-app-pub-3940256099942544~6300978111"
     lateinit var mAdView: AdView
     lateinit var mWebView: WebView
